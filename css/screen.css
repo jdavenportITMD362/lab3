@@ -51,7 +51,7 @@ input#email {
 }
 
 div#center {
-	width: 458px;
+	width: 440px;
 	height: 2.369em;
 	margin: auto;
 	margin-top: 15%;
@@ -62,6 +62,21 @@ input#age-verification {
 	width: 2.369em;
 	float: left;
 	margin: 0 3% 0 0;
+}
+
+.hasjs input#age-verification {
+	position: absolute;
+	right: 6000px;
+}
+
+.hasjs div#alt-checkbox {
+	box-sizing: border-box;
+	height: 2.369em;
+	width: 2.369em;
+	float: left;
+	margin: 0 3% 0 0;
+	background-color: #b2b2b2;
+	border-radius: 5px;
 }
 
 #content label#forAge {

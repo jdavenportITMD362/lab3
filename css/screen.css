@@ -4,13 +4,21 @@ h1, p, ol, li, label, textarea, button, input {
 
 /* Using Perfect Fourth */
 
+#content {
+	width: 90%;
+	margin: auto;
+}
+
 #content h1 {
 	font-size: 4.209em;
 	font-weight: bold;
 	box-sizing: border-box;
-	width: 90%;
-	margin: auto;
 	text-align: center;
 	margin-top: 10%;
 }
 
+#content p {
+	font-size: 2.369em;
+	box-sizing: border-box;
+
+}

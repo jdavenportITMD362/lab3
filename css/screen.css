@@ -64,3 +64,14 @@ input#age-verification {
 	display: block;
 	float: left;
 }
+
+input#submit {
+	font-size: 2.369em;
+	box-sizing: border-box;
+	display: block;
+	width: fit-content;
+	padding: 10px;
+	margin: auto;
+	border-radius: 12px;
+	margin-top: 15%;
+}

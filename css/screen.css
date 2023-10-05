@@ -2,7 +2,15 @@ h1, p, ol, li, label, textarea, button, input {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
-#content {
+/* Using Perfect Fourth */
+
+#content h1 {
+	font-size: 4.209em;
+	font-weight: bold;
 	box-sizing: border-box;
-	margin: 2% 5%;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	margin-top: 10%;
 }
+

@@ -23,3 +23,11 @@ h1, p, ol, li, label, textarea, button, input {
 	text-align: center;
 	margin-top: 5%;
 }
+
+#content label {
+	font-size: 2.369em;
+	box-sizing: border-box;
+	display: block;
+	width: 100%;
+	margin: 15% 0 2.5%;
+}

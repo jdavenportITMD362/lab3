@@ -99,3 +99,12 @@ input#submit {
 	background-color: #b2b2b2;
 }
 
+
+@media only screen and (min-width: 510px) {
+	html {
+		background-color: #b2b2b2;
+	}
+
+	#content {
+		background-color: lightgrey;
+	}

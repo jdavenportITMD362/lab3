@@ -2,6 +2,10 @@ h1, p, ol, li, label, textarea, button, input {
 	font-family: 'IBM Plex Sans', sans-serif;
 }
 
+html {
+	background-color: lightgrey;
+}
+
 /* Using Perfect Fourth */
 
 #content {
@@ -42,6 +46,8 @@ input#email {
 	margin: auto;
 	height: 2.5em;
 	border-radius: 12px;
+	border: 0;
+	background-color: #b2b2b2;
 }
 
 div#center {
@@ -74,4 +80,7 @@ input#submit {
 	margin: auto;
 	border-radius: 12px;
 	margin-top: 15%;
+	border: 0;
+	background-color: #b2b2b2;
 }
+

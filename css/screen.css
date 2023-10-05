@@ -14,7 +14,7 @@ html {
 }
 
 #content h1 {
-	font-size: 1.777em;
+	font-size: 2.369em;
 	font-weight: bold;
 	box-sizing: border-box;
 	text-align: center;
@@ -107,4 +107,48 @@ input#submit {
 
 	#content {
 		background-color: lightgrey;
+		border-radius: 20px;
+		margin-top: 3%;
 	}
+
+	#content h1 {
+		font-size: 3.157em;
+		margin-top: 0%;
+		padding-top: 1.5em;
+	}
+
+	#content p {
+		font-size: 2.369em;
+		margin-top: 1em;
+	}
+
+	#content p#check {
+		font-size: 2em;
+		margin-top: 0;
+	}
+
+	#content label#forEmail {
+		font-size: 2.369em;
+		margin: auto;
+		margin-top: 1.5em;
+		margin-bottom: .5em;
+	}
+
+	input#email {
+		font-size: 1.777em;
+	}
+
+	div#center {
+		width: 335px;
+		height: 1.777em;
+		margin: auto;
+		margin-top: 1.5em;
+	}
+
+	input#submit {
+		font-size: 2.369em;
+		margin: 5em auto 0 auto;
+		position: relative;
+		bottom: 2em;
+	}
+}

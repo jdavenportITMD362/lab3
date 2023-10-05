@@ -9,7 +9,7 @@ jQuery(function($) {
   	}
   	else {
 	  	$('#age-verification').prop("checked", true);
-	  	$('#alt-checkbox').html("<p>&#10004;</p>");
+	  	$('#alt-checkbox').html("<p id=\"check\">&#10004;</p>");
   	}
   });
   $('#forAge').on("click", function () { // For some reason for ckicking on the label to work the way it should the checked values need to be flipped?
@@ -19,7 +19,7 @@ jQuery(function($) {
   	}
   	else {
 			$('#age-verification').prop("checked", false);
-			$('#alt-checkbox').html("<p>&#10004;</p>");
+			$('#alt-checkbox').html("<p id=\"check\">&#10004;</p>");
 		}
   });
 });
